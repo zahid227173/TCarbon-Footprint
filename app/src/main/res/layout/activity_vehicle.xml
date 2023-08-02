@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".VehicleActivity">
+
+    <TextView
+        android:id="@+id/vehicle"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+       android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:textSize="30dp"
+        android:text="Calculate Carbon Footprint for Your Vehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="Give input of different vehicle"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Usage Petrol for Vehicles"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <com.google.android.material.textfield.TextInputEditText
+        android:gravity="center"
+        android:id="@+id/petrol"
+        android:hint="In Liters/Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:text="Usages Diesel for Vehicles"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <com.google.android.material.textfield.TextInputEditText
+        android:gravity="center"
+        android:id="@+id/diesel"
+        android:hint="In Liters/Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:id="@+id/click3"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Your Vehicle CO2 Emissions (tons/year) :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="result"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>

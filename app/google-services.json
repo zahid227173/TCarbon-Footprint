@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084069370727",
+    "project_id": "carbon-footprint-fef9a",
+    "storage_bucket": "carbon-footprint-fef9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084069370727:android:1cce0d97aab548a3a9adc2",
+        "android_client_info": {
+          "package_name": "com.example.carbonfootprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084069370727-ntkufepql7iqev98tg30vh1btjnlphjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWK3YtiJU96mKd61Tr93btna7-M4FkeSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084069370727-ntkufepql7iqev98tg30vh1btjnlphjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

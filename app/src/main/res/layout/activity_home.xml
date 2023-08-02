@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Carbon Footprint for Your Household Utilities"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:text="Give input of household utilities"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:text="Electricity usage"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <com.google.android.material.textfield.TextInputEditText
+        android:gravity="center"
+        android:id="@+id/electricity"
+        android:hint="KWh or Unit per Month"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:text="LPG Gas usage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <com.google.android.material.textfield.TextInputEditText
+        android:gravity="center"
+        android:id="@+id/gas"
+        android:hint="Kg per Month"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:id="@+id/click1"
+        android:gravity="center"
+        android:text="Your Household Energy CO2 Emissions (tons/year) :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="result"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>

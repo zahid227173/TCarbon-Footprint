@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:paddingLeft="10dp"
+    tools:context=".ReduceCarbonFootprint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:text="How can Reduce Your Carbon Footprint \n\n\nFood\n\n1. Participate in Meatless Monday\n2. Choose organic and local foods \n3.  Reduce your food waste\n4.  Eat low on the food chain\n5. Buy food that is in season\n\n\nHome\n\n1. Do an energy audit of your home\n2. Switch lights off when you leave the room\n3. Unplug your electronic devices when they are not in use\n4. Change incandescent light bulbs\n5. Consume electricity and LPG gas\n6. Install solar panels\n\n\nTransportation\n\n1. Drive less\n2. Avoid unnecessary braking and acceleration\n3. Take care of your car\n4. Purchasing a hybrid or electric vehicle\n5. Use bicycle and walk if possible\n6. Avoid flying if possible\n7. Fly nonstop\n7. Go economy class\n\nOthers\n\n1. Don’t buy fast fashion\n2.  Buy less stuff!\n3. Necessary spend for pharmaceuticals\n4. Use necessary IT equipments and electronic devices\n5. Recycle paper based products\n6.  Plant trees more and more\n"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

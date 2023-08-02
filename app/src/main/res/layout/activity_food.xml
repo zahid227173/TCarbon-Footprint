@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".FoodActivity">
+
+
+    <TextView
+        android:text="Calculate Carbon Footprint for Your Daily Food"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Your average daily Calories"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <com.google.android.material.textfield.TextInputEditText
+        android:gravity="center"
+        android:id="@+id/calories"
+        android:layout_margin="10dp"
+        android:hint="avg. daily food in calories"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:id="@+id/click2"
+        android:paddingLeft="10dp"
+        android:text="Your Foodprint CO2 Emission (tons/year):"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/result2"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="result"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
